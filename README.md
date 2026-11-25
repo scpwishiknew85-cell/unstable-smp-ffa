@@ -11,7 +11,7 @@ Serve this repository with any static web server, or enable GitHub Pages from th
 - Choose a mode, arena, factions, bot count, and difficulty.
 - Deploy and fight.
 
-## Features
+## Visual style\n\n- Minecraft-inspired pixel-art menu, stone-button controls, blocky HUD, hotbar, pause screen, and inventory layout.\n- Original procedural 16×16 pixel textures generated at runtime and applied to voxel materials. No copied Minecraft texture files or proprietary asset packs are bundled.\n- Block-shaped projectile visuals, crisp nearest-neighbor texture filtering, and pixel-style typography.\n\n## Features
 
 - First-person 3D voxel-style arenas, generated locally at runtime.
 - Six factions with individual palettes, names, combat personalities, and faction relationships.
@@ -57,4 +57,4 @@ Faction names, member names, and lore details not supplied as canonical referenc
 
 ## Development
 
-All gameplay assets are procedurally created with Three.js primitives. There are no external model downloads. Keep all paths relative so the project remains deployable from GitHub Pages.
+All gameplay assets are procedurally created with Three.js primitives and original canvas-generated pixel textures. There are no external model or texture downloads. The visual language is Minecraft-inspired, but the game does not redistribute Minecraft's copyrighted textures or assets. Keep all paths relative so the project remains deployable from GitHub Pages.
