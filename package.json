@@ -1,0 +1,1 @@
+{"name":"unstable-smp-ffa","version":"1.0.0","private":true,"type":"module","description":"Single-player voxel faction combat game","scripts":{"serve":"npx http-server . -p 8080 -c-1"},"dependencies":{"three":"^0.160.0"},"devDependencies":{}}
