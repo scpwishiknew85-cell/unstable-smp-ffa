@@ -23,5 +23,5 @@ export const ARENAS=[
 {name:'Floating Islands',ground:0x65718e,wall:0xa3b2cb,sky:0x839fc7,style:'islands'}
 ];
 export const MODES=['Faction War','Free For All','Survival Arena','Boss Battles','Practice'];
-export const RELATIONS={null:{mafia:'hostile',directors:'hostile',royal:'hostile',rebels:'hostile',mercs:'hostile'},mafia:{directors:'hostile',royal:'hostile',rebels:'hostile',mercs:'hostile'},directors:{royal:'hostile',rebels:'hostile',mercs:'hostile'},royal:{rebels:'hostile',mercs:'hostile'},rebels:{mercs:'hostile'}};
+export const RELATIONS={null:{mafia:'hostile',directors:'hostile',royal:'hostile',rebels:'hostile',mercs:'hostile'},mafia:{directors:'hostile',royal:'hostile',rebels:'hostile',mercs:'hostile'},directors:{royal:'ally',rebels:'hostile',mercs:'hostile'},royal:{rebels:'hostile',mercs:'hostile'},rebels:{mercs:'hostile'}};
 export const relation=(a,b)=>a===b?'ally':RELATIONS[a]?.[b]||RELATIONS[b]?.[a]||'hostile';
